@@ -58,7 +58,7 @@ function calculateDiscount(cost, type) {
 }
 
 function displayResults(baseCost, discount, discountedCost, tax, totalCost) {
-    const quoteDiv = document.getElementById("quote");
+    const quoteDiv = document.getElementById("gen_quote");
     quoteDiv.textContent = `Base Cost: $${baseCost.toFixed(2)}
                           Discount: $${discount.toFixed(2)}
                           Discounted Cost: $${discountedCost.toFixed(2)}
@@ -67,6 +67,6 @@ function displayResults(baseCost, discount, discountedCost, tax, totalCost) {
 }
 
 function displayMessage(message) {
-    const quoteDiv = document.getElementById("quote");
+    const quoteDiv = document.getElementById("gen_quote");
     quoteDiv.textContent = `${message}`;
 }
