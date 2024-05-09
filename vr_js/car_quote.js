@@ -28,7 +28,6 @@ document.getElementById('car_rental').addEventListener('submit', function (event
     }
 
     // Display the quote
-    document.getElementById('car_quote').textContent = `Your estimated rental cost
-                                                        is $${totalCost.toFixed(2)}.`;
+    document.getElementById('car_quote').textContent = `Your estimated rental cost is $${totalCost.toFixed(2)}.`;
 
 });
